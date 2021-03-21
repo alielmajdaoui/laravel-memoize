@@ -1,0 +1,34 @@
+{
+	"name": "alielmajdaoui/laravel-memoize",
+	"description": "Memoize your expensive computed values to use in different components per each request.",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ali El Majdaoui",
+			"homepage": "https://github.com/alielmajdaoui"
+		}
+	],
+	"require": {
+		"php": "^7.2.5|^8.0"
+	},
+	"require-dev": {
+		"orchestra/testbench": "^6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aliem\\Memoize\\": "src"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Aliem\\Memoize\\MemoizeServiceProvider"
+			],
+			"aliases": {
+				"Memoize": "Aliem\\Memoize\\Facades\\Memoize"
+			}
+		}
+	},
+	"minimum-stability": "dev"
+}
