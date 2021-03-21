@@ -102,6 +102,20 @@ $result = Comment::find(1);
 $comment = Memoize::put('comment:1', $result);
 ```
 
+### has(string $key): bool
+
+Check if an item is memoized
+
+```php
+<?php
+
+use Aliem\Memoize\Facades\Memoize;
+
+if (Memoize::has('comment:1')) {
+    echo 'the item `comment:1` is memoized';
+}
+```
+
 ### forget(string $key): bool
 
 Delete a memoized item.
