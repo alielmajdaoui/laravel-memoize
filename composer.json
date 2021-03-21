@@ -1,6 +1,12 @@
 {
 	"name": "alielmajdaoui/laravel-memoize",
 	"description": "Memoize your expensive computed values to use in different components per each request.",
+	"keywords": [
+		"php",
+		"laravel",
+		"memoize",
+		"cache"
+	],
 	"type": "library",
 	"license": "MIT",
 	"authors": [
