@@ -29,6 +29,5 @@
 				"Memoize": "Aliem\\Memoize\\Facades\\Memoize"
 			}
 		}
-	},
-	"minimum-stability": "dev"
+	}
 }
